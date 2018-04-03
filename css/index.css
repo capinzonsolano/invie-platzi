@@ -1,0 +1,215 @@
+/* Generales */
+
+body {
+  font-family: 'Allerta', sans-serif;
+  margin: 0;
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+}
+
+.menu a, .guitarras {
+  color: #1f313c;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu, .logotipo, .menu li {
+  display: inline-block;
+}
+
+.menu a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.menu {
+  font-size: 24px;
+}
+
+/* Portada */
+
+.background {
+  background-image: url(../images/background.png);
+  background-size: cover;
+}
+
+.portada {
+  color: white;
+  padding: 20px;
+}
+
+.titulo {
+  font-size: 70px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 70px;
+}
+
+.title-a {
+  font-size: 24px;
+}
+
+.button {
+  color: white;
+  margin-bottom: 70px;
+  border-radius: 8px;
+  border: none;
+  padding: 7px;
+  background: #d86d2b;
+  background: -moz-linear-gradient(left, #d86d2b 0%, #f4ceab 100%);
+  background: -webkit-linear-gradient(left, #d86d2b 0%, #f4ceab 100%);
+  background: linear-gradient(to right, #d86d2b 0%, #f4ceab 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d86d2b', endColorstr='#f4ceab', GradientType=1);
+}
+
+/* Guitarras */
+
+.guitarras h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+}
+
+.title-b {
+  font-size: 50px;
+  margin-bottom: 20px
+}
+
+.left {
+  float: left;
+  position: relative;
+  top: 80px;
+}
+
+.rigth {
+  float: right;
+  position: relative;
+  left: 20px;
+  top: -127px;
+}
+
+.guitarra {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #1f313c;
+  border-radius: 8px;
+}
+
+.guitarra ol {
+  padding: 0;
+}
+
+.contenedor-guitarra-a {
+  margin-right: 370px;
+  padding-left: 20px;
+}
+
+.contenedor-guitarra-b {
+  margin-left: 370px;
+}
+
+/* footer */
+
+.footer {
+  background: #1f313c;
+}
+
+.contacto {
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contacto a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  margin: 10px 10px 10px 0;
+}
+
+.contacto img {
+  display: block;
+}
+
+.contacto strong {
+  display: block;
+}
+
+.footer .contenedor {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formulario {
+  display: flex;
+  color: white;
+}
+
+.formulario label {
+  margin-top: 20px;
+}
+
+.col1, .col2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.col1 {
+  margin-right: 15px;
+}
+
+.intereses label {
+  font-size: 14px;
+}
+
+.formulario label, .sexo, .intereses {
+  margin-bottom: 10px;
+}
+
+.sexo {
+  margin-top: 10px;
+}
+
+.col2 {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.col2 .button {
+  margin-top: 10px;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  background: #1f313c;
+  color: white;
+}
+
+th {
+  padding: 10px 20px;
+  text-align: left;
+}
+
+td {
+  padding: 20px;
+}
+
+table, td, th {
+  border: 1px solid #1f313c;
+  border-collapse: collapse;
+  margin: 20px
+}
